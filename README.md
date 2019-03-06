@@ -1,0 +1,2 @@
+# AndroidPNewFeature
+Android P新特性：FingerprintDialog(系统预置指纹界面)、ConfirmationDialog(TUI交易界面)；以及createConfirmDeviceCredentialIntent使用

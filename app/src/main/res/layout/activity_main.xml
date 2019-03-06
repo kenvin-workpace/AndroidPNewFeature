@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_finger"
+        style="@style/cardview_set"
+        app:cardElevation="5sp">
+
+        <TextView
+            style="@style/textview_set"
+            android:text="指纹"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_digital_code"
+        style="@style/cardview_set"
+        app:cardElevation="5sp">
+
+        <TextView
+            style="@style/textview_set"
+            android:text="数字密码"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_confirmation_dialog"
+        style="@style/cardview_set"
+        app:cardElevation="5sp">
+
+        <TextView
+            style="@style/textview_set"
+            android:text="确认弹窗"/>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_result"
+        style="@style/textview_set"
+        android:layout_marginTop="30dp"/>
+</LinearLayout>
